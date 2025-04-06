@@ -1,14 +1,4 @@
-/*
-#########################################
 
--- Selman Borkluce - 430589
-
--- Beyza Nur Celebi - 425475
-
--- Murat Aydin - 425434
-
-#########################################
-*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -95,7 +85,6 @@ void en_cok_tuketim();      //en cok tuketilen yemek ve en cok siparis veren kul
 
 
 int main(){
-    printf("\n\n\n\n\n\t\t\t\t\tKTUCENGSEPETI\n\n\n\nHAZIRLAYANLAR:\nBeyza Nur Celebi\nMurat Aydin\nSelman Borkluce");
     printf("\n\n\n\n\t\t\t\t\tKULLANICI ADI: ");
     fgets(kullanici_adi,sizeof(kullanici_adi),stdin);
 
